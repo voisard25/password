@@ -54,7 +54,7 @@ const Password1 = ({ onPasswordChange }) => {
           placeholder="Ingrese su contraseña"
         />
         <button onClick={() => setShowPassword(!showPassword)}>
-          {showPassword ? '🙈' : '👁️'}
+          {showPassword ? 'Ocultar' : 'Mostrar'}
         </button>
       </div>
 
